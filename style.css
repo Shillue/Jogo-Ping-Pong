@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    background-color: blueviolet;
+}
+#painel{
+    position:absolute;
+    top:80vh ;
+    left: 40vh;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.itemPainel{
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#textPontosJog, #textPontosCpu{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 2px;
+}
+#btIniciar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    background-color: burlywood;
+    
+}
+#btIniciar:hover{
+    background-color: rgb(1, 73, 1);
+    color: darkgrey;
+}
+#jogo{
+    position: absolute;
+    top: 4vh;
+    left: 25vh;
+    width: 960px;
+    height: 500px;
+    border: 2px solid red;
+    background-color: black;
+}
+#bola{
+    position: absolute;
+    top: 240px;
+    left: 475px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+#linha{
+    position: absolute;
+    width: 3px;
+    height: 500px;
+    left: 480px;
+    background-color: white;
+}
+.barra{
+    position: absolute;
+    width: 20px;
+    height: 140px;
+    background-color: white;
+    top: 180px;
+}
+.esquerda{
+    left:10px;
+}
+.direita{
+    left: 930px;
+}
